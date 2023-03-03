@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
+  { name: "Contact us", href: "/contact" },
 ];
 
 export default function Header() {
@@ -20,7 +21,7 @@ export default function Header() {
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
-              className="h-32 w-auto"
+              className="h-32 w-auto p-1 rounded-full border-solid border-2 border-black"
               src="../public/refuge-logo-original_1.svg"
               alt=""
             />
