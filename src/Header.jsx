@@ -6,6 +6,7 @@ const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Contact us", href: "/contact" },
+  { name: "Support", href: "/support" },
 ];
 
 export default function Header() {
@@ -22,7 +23,7 @@ export default function Header() {
             <span className="sr-only">Your Company</span>
             <img
               className="h-24 w-auto bg-white p-1 rounded-full border-solid border-2 border-black"
-              src="../public/refuge-logo-original_1.svg"
+              src="/refuge-logo-original_1.svg"
               alt=""
             />
           </a>
@@ -62,7 +63,7 @@ export default function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-12 w-auto"
-                src="../public/refuge-logo-original_1.svg"
+                src="/refuge-logo-original_1.svg"
                 alt=""
               />
             </a>

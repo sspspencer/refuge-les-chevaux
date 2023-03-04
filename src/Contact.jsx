@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="bg-white  ">
       <div aria-hidden="true" className="relative">
         <img
-          src="../public/horse-banner-hero.jpg"
+          src="/horse-banner-hero.jpg"
           alt=""
           className="w-full h-128 object-cover object-center"
         />
@@ -65,7 +65,7 @@ export default function Contact() {
               </p>
               <p className="mt-4 text-lg leading-8 text-gray-600">
                 Be the one that makes a difference to a horse that just needs
-                love, food and a home
+                love, food and a home.
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                 <div className="flex gap-x-4">
