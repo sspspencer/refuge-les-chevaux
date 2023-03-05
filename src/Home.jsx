@@ -9,7 +9,7 @@ const Home = () => {
           src={horseImage}
           alt="Horse banner"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center">
+        <div className="absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold text-white mb-4">
             Welcome to Refuges Les Chevaux D'Espoir!
           </h1>
@@ -22,7 +22,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section className="max-w-3xl mx-auto mt-8">
+      <section className="max-w-3xl mx-auto mt-8 text-center sm:text-start">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h2>
         <p className="text-lg text-gray-600 mb-8">
           At Refuges Les Chevaux D'Espoir, we believe that every horse deserves
