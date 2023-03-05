@@ -4,15 +4,22 @@ import { HomeIcon, EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 export default function Contact() {
   return (
     <div className="bg-white  ">
-      <div aria-hidden="true" className="relative">
+      <section className="w-full relative">
         <img
-          src="/horse-banner-hero.jpg"
-          alt=""
-          className="w-full h-128 object-cover object-center"
+          className="w-full h-128 object-cover object-top sm:object-center"
+          src="/horse-banner-hero2.jpg"
+          alt="Horse banner"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-white " />
-      </div>
-      <div className="relative isolate bg-white mt-4">
+        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center">
+          <h1 className="text-5xl font-bold text-white mb-4">Get in touch</h1>
+          <p className="text-xl text-white mb-8 max-w-lg text-center ">
+            There are many ways to join us and support our mission. Contact us
+            to find out more about volunteer opportunities, fundraising events,
+            and ways that you can get our message to your friends and family.
+          </p>
+        </div>
+      </section>
+      <div className="relative isolate bg-white ">
         <div className="mx-auto grid  grid-cols-1 lg:grid-cols-2">
           <div className="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:py-48 lg:px-8">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -54,15 +61,7 @@ export default function Contact() {
                   />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                Get in touch
-              </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                There are many ways to join us and support our mission. Contact
-                us to find out more about volunteer opportunities, fundraising
-                events, and ways that you can get our message to your friends
-                and family.
-              </p>
+
               <p className="mt-4 text-lg leading-8 text-gray-600">
                 Be the one that makes a difference to a horse that just needs
                 love, food and a home.

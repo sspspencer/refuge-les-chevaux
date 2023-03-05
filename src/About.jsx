@@ -1,4 +1,4 @@
-const people = [
+const Sponsors = [
   {
     name: "Roxanne Auclair Hoof Care Services",
     imageUrl: "/sponsor_1.jpg",
@@ -55,20 +55,20 @@ const About = () => {
           role="list"
           className="mx-auto grid max-w-5xl grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-2  lg:mx-0 lg:max-w-none lg:gap-x-32 xl:col-span-1"
         >
-          {people.map((person) => (
+          {Sponsors.map((sponsor) => (
             <li
-              key={person.name}
+              key={sponsor.name}
               className="border border-gray-500 rounded-lg h-56 w-36 hover:opacity-60 sm:h-64 sm:w-44 shadow-2xl xl:ml-60"
             >
               <a
-                href={person.socialUrl}
+                href={sponsor.socialUrl}
                 target="_blank"
                 className="text-gray-400 h-full w-full hover:text-gray-500"
               >
                 <img
                   className="h-full w-full  object-contain object-center"
-                  src={person.imageUrl}
-                  alt={person.name}
+                  src={sponsor.imageUrl}
+                  alt={sponsor.name}
                 />
               </a>
             </li>
