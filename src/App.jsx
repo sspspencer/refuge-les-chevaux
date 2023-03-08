@@ -5,6 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Support from "./Support";
+import Horses from "./Horses";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="support" element={<Support />} />
+        <Route path="horses" element={<Horses />} />
       </Routes>
       <Footer />
     </BrowserRouter>
