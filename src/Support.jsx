@@ -38,7 +38,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-(function () {
+function shop() {
   var scriptURL =
     "https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js";
   if (window.ShopifyBuy) {
@@ -224,9 +224,12 @@ function classNames(...classes) {
       });
     });
   }
-})();
+}
+
+// document.addEventListener("load", shop());
 
 export default function Example() {
+  shop();
   return (
     <div>
       <div className="relative isolate bg-white py-24 px-6 sm:py-32 lg:px-8">
