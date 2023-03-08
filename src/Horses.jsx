@@ -24,18 +24,19 @@ export default function Horses() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl flex flex-col text-center items-center justify-center ">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet Our Horses
           </h2>
           <p className="mt-4 text-gray-500">
             Meet our horses, the heart and soul of our rescue . Our horses are
-            ready to capture your heart and make a lasting impression, , and we
+            ready to capture your heart and make a lasting impression, and we
             are sure that you will fall in love with them just as we have.
           </p>
+          <div className="h-1 w-3/5 mt-2 rounded-full bg-gray-200"></div>
         </div>
 
-        <div className="mt-16 space-y-16">
+        <div className="mt-20 space-y-16">
           {features.map((feature, featureIdx) => (
             <div
               key={feature.name}
