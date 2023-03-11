@@ -20,13 +20,24 @@ const Sponsors = [
     imageUrl: "/sponsor_4.jpg",
     socialUrl: "https://www.facebook.com/profile.php?id=100057175731055",
   },
+  {
+    name: "Brookies des Prairies",
+    imageUrl: "/Brookies.jpg",
+    socialUrl: "https://www.facebook.com/brookiesdesprairies?mibextid=LQQJ4d",
+  },
+  {
+    name: "Jean Coutu (Hawkesbury Main Est)",
+    imageUrl: "/jean-coutu.jpg",
+    socialUrl: "https://www.facebook.com/JeanCoutuHawkesburyMainEst/",
+  },
+
   // More sponsors...
 ];
 
 const About = () => {
   return (
     <div className="bg-white py-24 md:py-32 lg:py-40">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
+      <div className="mx-auto grid max-w-screen-2xl grid-cols-1 gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Our Sponsors
@@ -53,12 +64,12 @@ const About = () => {
         </div>
         <ul
           role="list"
-          className="mx-auto grid max-w-5xl grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-2  lg:mx-0 lg:max-w-none lg:gap-x-32 xl:col-span-1"
+          className="mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-3 sm:gap-x-5 sm:max-w-7xl  lg:mx-0 lg:max-w-none lg:gap-x-32 xl:col-span-1"
         >
           {Sponsors.map((sponsor) => (
             <li
               key={sponsor.name}
-              className="border border-gray-500 rounded-lg h-56 w-36 hover:opacity-60 sm:h-64 sm:w-44 shadow-2xl xl:ml-60"
+              className="border bg-gray-100 border-gray-500 rounded-lg h-56 w-36 hover:opacity-60 sm:h-64 sm:w-44 shadow-2xl xl:ml-60"
             >
               <a
                 href={sponsor.socialUrl}
