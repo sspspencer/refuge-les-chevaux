@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Support from "./Support";
 import Horses from "./Horses";
+import Team from "./Team";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="support" element={<Support />} />
         <Route path="horses" element={<Horses />} />
+        <Route path="team" element={<Team />} />
       </Routes>
       <Footer />
     </BrowserRouter>

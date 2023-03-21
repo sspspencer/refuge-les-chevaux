@@ -8,6 +8,7 @@ const navigation = [
   { name: "About Us", href: "/about" },
   { name: "Support", href: "/support" },
   { name: "Contact us", href: "/contact" },
+  { name: "Our Team", href: "/team" },
 ];
 
 export default function Header() {
