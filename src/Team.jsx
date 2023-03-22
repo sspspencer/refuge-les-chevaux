@@ -3,7 +3,7 @@ const people = [
     name: "Nève Lavigne",
     role: "Founder",
     imageUrl: "/neve.jpg",
-    bio: "I am a passionate horse lover and founder of Refuge- Les Chevaux D'Espoir. Our mission is to rescue and rehabilitate horses that have suffered neglect or injury, and find them loving forever homes.",
+    bio: "<p>I am a passionate horse lover and founder of Refuge- Les Chevaux D'Espoir.<br> Our mission is to rescue and rehabilitate horses that have suffered neglect or injury, and find them loving forever homes.</p>",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -114,7 +114,7 @@ export default function Example() {
               </h3>
               <p className="text-base leading-7 text-gray-600">{person.role}</p>
               <p className="mt-4 text-base leading-7 text-gray-600">
-                {person.bio}
+                <i dangerouslySetInnerHTML={{ __html: person.bio }} />
               </p>
               <ul role="list" className="mt-6 flex gap-x-6">
                 <li>
