@@ -17,9 +17,12 @@ const Home = () => {
             Make a horse's dreams come true, give it the hope of a second
             chance!
           </p>
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+          <a
+            href="/support"
+            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+          >
             Donate Now
-          </button>
+          </a>
         </div>
       </section>
       <section className="max-w-3xl mx-auto mt-8 text-center sm:text-start">

@@ -32,6 +32,21 @@ const tiers = [
     ],
     featured: true,
   },
+  {
+    name: "Supporter",
+    id: "tier-supporter",
+    href: "https://www.paypal.com/donate/?business=GJ634YTATJPGA&amount=5&no_recurring=0&currency_code=CAD",
+    priceMonthly: "$5",
+    description:
+      "The perfect plan if you're just getting started with our product.",
+    features: [
+      "25 products",
+      "Up to 10,000 subscribers",
+      "Advanced analytics",
+      "24-hour support response time",
+    ],
+    featured: false,
+  },
 ];
 
 function classNames(...classes) {
@@ -270,7 +285,7 @@ export default function Example() {
           Qui iusto aut est earum eos quae. Eligendi est at nam aliquid ad quo
           reprehenderit in aliquid fugiat dolorum voluptatibus.
         </p>
-        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
           {tiers.map((tier, tierIdx) => (
             <div
               key={tier.id}
