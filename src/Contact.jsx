@@ -92,7 +92,7 @@ export default function Contact() {
                   <dd>
                     <a
                       className="hover:text-gray-900"
-                      href="tel:+1 (555) 234-5678"
+                      href="tel:+1 (613) 307-2312"
                     >
                       +1 (613) 307-2312
                     </a>
