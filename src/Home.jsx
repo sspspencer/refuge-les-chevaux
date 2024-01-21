@@ -25,16 +25,28 @@ const Home = () => {
           </a>
         </div>
       </section>
-      <section className="max-w-3xl mx-auto mt-8 text-center sm:text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h2>
-        <p className="text-lg text-gray-600 mb-8">
-          Our rescue's mission is to save as many horses as possible. We save
-          horses on their way to the slaughterhouse, with urgent medical needs,
-          or that have been abandoned, in order to give them a second chance at
-          life
-        </p>
+      <section className=" bg-gray-200  mx-auto w-full relative  text-center sm:text-center">
+        <div className=" px-6 py-24 sm:py-32 lg:px-8 ">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Our Mission
+            </h2>
+            <p className="mt-6 text-lg leading-7 text-gray-700 font-semibold">
+              Our rescue's mission is to save as many horses as possible. We
+              save horses on their way to the slaughterhouse, with urgent
+              medical needs, or that have been abandoned, in order to give them
+              a second chance at life
+            </p>
+            <a
+              href="/about"
+              className="text-md font-semibold leading-10 text-indigo-600"
+            >
+              Learn more <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
       </section>
-      <div className=" pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32 w-full relative">
+      <div className=" pb-16 bg-gray-200  sm:pb-24 xl:pb-32 w-full relative">
         <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
@@ -77,13 +89,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="max-w-3xl mx-auto mt-8 text-center sm:text-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">
+      <section className="bg-gray-200 w-full relative mx-auto  text-center sm:text-center">
+        <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           How You Can Help?
         </h2>
         <div className=" py-20 sm:py-20 w-full relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
+            <div className="-mx-6 shadow-2xl shadow-gray-700 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
               <div className="bg-gray-800 p-8 sm:p-10">
                 <a
                   className="text-white font-bold py-2 px-4 text-lg"
