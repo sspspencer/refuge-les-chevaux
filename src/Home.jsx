@@ -10,28 +10,28 @@ const Home = () => {
           alt="Horse banner"
         />
         <div className="absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-bold text-white mb-4">
+          <h1 className="text-4xl font-serif font-bold text-white mb-4">
             Welcome to Refuge - Les Chevaux D'Espoir!
           </h1>
-          <p className="text-lg text-white mb-8">
+          <p className="text-lg font-semibold font-serif text-white mb-8">
             Make a horse's dreams come true, give it the hope of a second
             chance!
           </p>
           <a
             href="/support"
-            className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+            className="bg-green-500 font-mono hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
           >
             Donate Now
           </a>
         </div>
       </section>
       <section className=" bg-gray-200  mx-auto w-full relative  text-center sm:text-center">
-        <div className=" px-6 py-24 sm:py-32 lg:px-8 ">
+        <div className=" px-6 py-24 sm:py-28 lg:px-8 ">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h2 className="text-4xl font-serif font-bold tracking-tight text-gray-900 sm:text-6xl">
               Our Mission
             </h2>
-            <p className="mt-6 text-lg leading-7 text-gray-700 font-semibold">
+            <p className="mt-6 font-serif text-lg leading-7 text-gray-700 font-semibold">
               Our rescue's mission is to save as many horses as possible. We
               save horses on their way to the slaughterhouse, with urgent
               medical needs, or that have been abandoned, in order to give them
@@ -39,20 +39,51 @@ const Home = () => {
             </p>
             <a
               href="/about"
-              className="text-md font-semibold leading-10 text-indigo-600"
+              className="text-md font-semibold font-mono leading-10 text-indigo-600"
             >
               Learn more <span aria-hidden="true">→</span>
             </a>
+          </div>
+          <div className=" invisible 2xl:visible xl  xl:pt-28 bg-gray-200  sm:pb-24 xl:pb-0 w-full relative h-0 xl:h-auto  ">
+            <div className="bg-gray-200 pb-20 sm:pb-24 xl:pb-0">
+              <div className="lg:mx-auto justify-center  flex max-w-7xl flex-col items-center gap-x-40 lg:gap-x-32 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch h-128">
+                <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-128 xl:h-96 xl:flex-none">
+                  <h1 className="pb-12 font-mono -rotate-3 text-4xl font-bold text-black">
+                    Before
+                  </h1>
+                  <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+                    <img
+                      className="absolute -rotate-3 inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
+                      src="/Home-before.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+
+                <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-128 xl:h-96 xl:flex-none">
+                  <h1 className="pb-12 font-mono text-4xl rotate-3 font-bold text-black">
+                    After
+                  </h1>
+                  <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+                    <img
+                      className="absolute rotate-3 inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
+                      src="/Home-after.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <div className=" pb-16 bg-gray-200  sm:pb-24 xl:pb-32 w-full relative">
         <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-            <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+            <div className="invisible xl:visible -mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
               <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                 <img
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-100 object-fill shadow-2xl border-solid border-2 border-gray-300"
+                  className="absolute -rotate-0 inset-0 h-full w-full rounded-2xl bg-gray-100 object-fill shadow-2xl border-solid border-2 border-gray-300"
                   src="/refuge-logo-original_1.svg"
                   alt=""
                 />
@@ -72,14 +103,16 @@ const Home = () => {
                   />
                   <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x={86} />
                 </svg>
-                <blockquote className="text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+                <blockquote className="text-xl font-serif font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
                   <p>
                     The Refuge was started on the 10 of december 2021. We have
                     saved more than 25 Horses!
                   </p>
                 </blockquote>
                 <figcaption className="mt-8 text-base">
-                  <div className="font-semibold text-white">Nève Lavigne </div>
+                  <div className="font-semibold text-white font-serif">
+                    Nève Lavigne{" "}
+                  </div>
                   <div className="mt-1 text-gray-400">
                     Founder of Refuge-Les Chevaux D'espoir!
                   </div>
@@ -90,42 +123,42 @@ const Home = () => {
         </div>
       </div>
       <section className="bg-gray-200 w-full relative mx-auto  text-center sm:text-center">
-        <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+        <h2 className="text-4xl font-bold font-serif tracking-tight text-gray-900 sm:text-5xl">
           How You Can Help?
         </h2>
         <div className=" py-20 sm:py-20 w-full relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="-mx-6 shadow-2xl shadow-gray-700 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
-              <div className="bg-gray-800 p-8 sm:p-10">
+              <div className="bg-gray-800  p-8 sm:p-10">
                 <a
-                  className="text-white font-bold py-2 px-4 text-lg"
+                  className="text-white font-serif font-bold py-2 px-4 text-xl"
                   href="/support"
                 >
                   Donate
                 </a>
               </div>
               <div className="bg-gray-800 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 text-lg">
+                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Store
                 </h1>
               </div>
               <div className="bg-gray-800 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 text-lg">
+                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Sponsor/Adopt
                 </h1>
               </div>
               <div className="bg-gray-800 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 text-lg">
+                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Events
                 </h1>
               </div>
               <div className="bg-gray-800 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 text-lg">
+                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Our sponsors
                 </h1>
               </div>
               <div className="bg-gray-800 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 text-lg">
+                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Volunteer
                 </h1>
               </div>
