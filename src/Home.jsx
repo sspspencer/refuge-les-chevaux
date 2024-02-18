@@ -44,7 +44,7 @@ const Home = () => {
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>
-          <div className=" invisible 2xl:visible xl  xl:pt-28 bg-gray-200  sm:pb-24 xl:pb-0 w-full relative h-0 xl:h-auto  ">
+          <div className=" invisible 2xl:visible   2xl:pt-28 bg-gray-200  sm:pb-24 2xl:pb-0 w-full relative h-0 2xl:h-auto  ">
             <div className="bg-gray-200 pb-20 sm:pb-24 xl:pb-0">
               <div className="lg:mx-auto justify-center  flex max-w-7xl flex-col items-center gap-x-40 lg:gap-x-32 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch h-128">
                 <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-128 xl:h-96 xl:flex-none">
