@@ -1,13 +1,13 @@
 const Home = () => {
   return (
     <div className="bg-[url('/Home-background1.jpg')]  flex flex-col justify-center items-center">
-      <section className="w-full h-96 relative shadow-2xl   ">
+      <section className="w-full h-96 relative shadow-2xl shadow-gray-900   ">
         <img
           className="w-full h-96 object-cover blend object-top"
           src="/New-home-banner.jpg"
           alt="Horse banner"
         />
-        <div className="absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-25 flex flex-col justify-center items-center">
+        <div className="absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center">
           <h1 className="text-4xl font-serif font-bold text-white mb-4">
             Welcome to Refuge - Les Chevaux D'Espoir!
           </h1>
