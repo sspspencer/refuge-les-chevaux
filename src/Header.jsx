@@ -18,7 +18,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900">
+    <header className="bg-gray-800">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
         aria-label="Global"
@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -52,7 +52,7 @@ export default function Header() {
               <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md   text-sm font-semibold text-gray-200 ">
                 Get Involved!
                 <ChevronDownIcon
-                  className="-mr-1 h-5 w-5 text-gray-400"
+                  className="-mr-1 h-5 w-5 text-gray-100"
                   aria-hidden="true"
                 />
               </Menu.Button>

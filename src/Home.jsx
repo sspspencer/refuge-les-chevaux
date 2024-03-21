@@ -1,35 +1,62 @@
+import { Carousel } from "@material-tailwind/react";
 const Home = () => {
   return (
-    <div className="bg-[url('/Home-background1.jpg')]  flex flex-col justify-center items-center">
-      <section className="w-full h-96 relative shadow-2xl shadow-gray-900   ">
-        <img
-          className="w-full h-96 object-cover blend object-top"
-          src="/New-home-banner.jpg"
-          alt="Horse banner"
-        />
-        <div className="absolute text-center top-0 left-0 w-full h-full bg-black bg-opacity-40 flex flex-col justify-center items-center">
-          <h1 className="text-4xl font-serif font-bold text-white mb-4">
-            Welcome to Refuge - Les Chevaux D'Espoir!
+    <div className="bg-[url('/Home-background3.jpg')] bg-contain  flex flex-col justify-center items-center">
+      <section className="w-full h-128 relative shadow-2xl shadow-gray-900   ">
+        <Carousel
+          autoplay
+          loop
+          transition={{ duration: 2 }}
+          className="h-128 w-full  rounded-xl"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+            alt="image 1"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            alt="image 2"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            alt="image 3"
+            className="h-full w-full object-cover"
+          />
+        </Carousel>
+        <div className=" text-center absolute   top-0 left-0 w-full h-full bg-black bg-opacity-40  flex flex-col justify-center items-center">
+          <h1 className="text-8xl   font-bold text-gray-500  mb-4">
+            Join the Ride
           </h1>
-          <p className="text-lg font-semibold font-serif text-white mb-8">
-            Make a horse's dreams come true, give it the hope of a second
-            chance!
+          <p className="text-3xl font-semibold font-sans text-gray-200 mb-8">
+            Support & Become a Part of Our Equestrian Community
           </p>
-          <a
-            href="/support"
-            className="bg-green-500 font-mono hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
-          >
-            Donate Now
-          </a>
+          <div className="">
+            <a
+              href="/support"
+              className=" h-10  bg-black mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+            >
+              Donate
+            </a>
+
+            <a
+              href="/Contact"
+              className="bg-white mx-2 outline outline-2 outline-gray-400  hover:bg-gray-100  text-black font-semibold py-2 px-4 rounded"
+            >
+              Contact Us
+            </a>
+          </div>
         </div>
       </section>
+
       <section className="   mx-auto w-full relative  text-center sm:text-center">
         <div className=" px-6 py-24 sm:py-28 lg:px-8 ">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-4xl drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)] font-serif font-bold tracking-tight text-black sm:text-6xl">
+            <h2 className="text-4xl mt-2 font-serif font-bold tracking-tight text-black sm:text-8xl">
               Our Mission
             </h2>
-            <p className="mt-6 font-serif text-xl leading-7 text-white font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1)]">
+            <p className="mt-3 font-sans text-2xl leading-7 text-black font-bold ">
               Our rescue's mission is to save as many horses as possible. We
               save horses on their way to the slaughterhouse, with urgent
               medical needs, or that have been abandoned, in order to give them
