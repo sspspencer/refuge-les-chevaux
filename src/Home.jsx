@@ -2,34 +2,34 @@ import { Carousel } from "@material-tailwind/react";
 const Home = () => {
   return (
     <div className="bg-[url('/Home-background3.jpg')] bg-contain  flex flex-col justify-center items-center">
-      <section className="w-full h-128 relative shadow-2xl shadow-gray-900   ">
+      <section className="w-full h-128 relative flex shadow-2xl shadow-gray-900   ">
         <Carousel
           autoplay
           loop
           transition={{ duration: 2 }}
-          className="h-128 w-full  rounded-xl"
+          className="h-128 w-full lg:w-1/2  rounded-xl lg:rounded-none"
         >
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+            src="/carousel2.jpg"
             alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            src="/carousel3.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src="/carousel4.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
         </Carousel>
-        <div className=" text-center absolute   top-0 left-0 w-full h-full bg-black bg-opacity-40  flex flex-col justify-center items-center">
-          <h1 className="text-8xl   font-bold text-gray-500  mb-4">
+        <div className=" text-center absolute lg:relative    lg:top-0 lg:left-0 w-full h-full lg:w-1/2 bg-black bg-opacity-10 lg:bg-brown-50 flex flex-col justify-center items-center">
+          <h1 className="text-8xl   font-bold text-yellow-100 lg:text-black  mb-4">
             Join the Ride
           </h1>
-          <p className="text-3xl font-semibold font-sans text-gray-200 mb-8">
+          <p className="text-3xl font-semibold font-sans text-gray-200 lg:text-gray-600 mb-8">
             Support & Become a Part of Our Equestrian Community
           </p>
           <div className="">
@@ -50,24 +50,31 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="   mx-auto w-full relative  text-center sm:text-center">
-        <div className=" px-6 py-24 sm:py-28 lg:px-8 ">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-4xl mt-2 font-serif font-bold tracking-tight text-black sm:text-8xl">
-              Our Mission
-            </h2>
-            <p className="mt-3 font-sans text-2xl leading-7 text-black font-bold ">
-              Our rescue's mission is to save as many horses as possible. We
-              save horses on their way to the slaughterhouse, with urgent
-              medical needs, or that have been abandoned, in order to give them
-              a second chance at life
-            </p>
-            <a
-              href="/about"
-              className="text-xl underline font-bold font-mono leading-10 text-black drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)]"
-            >
-              Learn more <span aria-hidden="true">→</span>
-            </a>
+      <section className="   mx-auto w-full relative    text-center sm:text-center">
+        <div className=" px-6 py-24  sm:py-28 lg:px-8 ">
+          <div className="relative mx-auto h-128 w-full  text-center">
+            <div className="mx-auto px-14 sm:px-20 md:px-32 lg:px-60 absolute top-1/4  z-10   text-center">
+              <h2 className=" text-4xl sm:text-6xl lg:text-6xl xl:text-8xl mt-2 font-serif font-bold tracking-tight text-black ">
+                Our Mission
+              </h2>
+              <p className="mt-3 font-sans md:text-lg lg:text-xl xl:text-2xl leading-7 text-black font-bold ">
+                Our rescue's mission is to save as many horses as possible. We
+                save horses on their way to the slaughterhouse, with urgent
+                medical needs, or that have been abandoned, in order to give
+                them a second chance at life
+              </p>
+              <a
+                href="/about"
+                className=" text-xs sm:text-md md:text-lg underline font-bold font-mono  text-black drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)]"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <img
+              src="/white-brush-stroke1.png"
+              alt=""
+              className="absolute z-0 h-full opacity-95 w-full"
+            ></img>
           </div>
           <div className=" invisible 2xl:visible   2xl:pt-28   sm:pb-24 2xl:pb-0 w-full relative h-0 2xl:h-auto  ">
             <div className=" pb-20 sm:pb-24 xl:pb-0">
@@ -103,7 +110,7 @@ const Home = () => {
         </div>
       </section>
       <div className=" pb-16   sm:pb-24 xl:pb-32 xl:mt-14 w-full relative">
-        <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">
+        <div className="bg-blue-gray-900 pb-20 sm:pb-24 xl:pb-0 shadow-2xl">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div className="invisible xl:visible -mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
               <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
@@ -148,13 +155,22 @@ const Home = () => {
         </div>
       </div>
       <section className=" w-full relative mx-auto  text-center sm:text-center">
-        <h2 className=" text-2xl font-bold font-serif tracking-tight drop-shadow-[0_1.2px_1.2px_rgba(255,255,255,1)] text-black sm:text-5xl">
-          How You Can Help?
-        </h2>
+        <div className=" relative mx-auto h-72 w-full  text-center">
+          <div className="mx-auto h-full  w-full  absolute top-1/2   z-10   text-center">
+            <h2 className="  text-2xl sm:text-3xl md:text-4xl mt-2 font-serif font-bold tracking-tight text-black ">
+              How You Can Help!
+            </h2>
+          </div>
+          <img
+            src="/white-brush-stroke1.png"
+            alt=""
+            className=" absolute z-0 h-full opacity-95 w-full lg:w-1/2 lg:left-1/4   "
+          ></img>
+        </div>
         <div className=" py-20 sm:py-20 w-full relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="-mx-6 shadow-2xl shadow-gray-700 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
-              <div className="bg-gray-800  p-8 sm:p-10">
+              <div className="bg-blue-gray-900  p-8 sm:p-10">
                 <a
                   className="text-white font-serif font-bold py-2 px-4 text-xl"
                   href="/support"
@@ -162,27 +178,27 @@ const Home = () => {
                   Donate
                 </a>
               </div>
-              <div className="bg-gray-800 p-6 sm:p-10">
+              <div className="bg-blue-gray-900 p-6 sm:p-10">
                 <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Store
                 </h1>
               </div>
-              <div className="bg-gray-800 p-6 sm:p-10">
+              <div className="bg-blue-gray-900 p-6 sm:p-10">
                 <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Sponsor/Adopt
                 </h1>
               </div>
-              <div className="bg-gray-800 p-6 sm:p-10">
+              <div className="bg-blue-gray-900 p-6 sm:p-10">
                 <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Events
                 </h1>
               </div>
-              <div className="bg-gray-800 p-6 sm:p-10">
+              <div className="bg-blue-gray-900 p-6 sm:p-10">
                 <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Our sponsors
                 </h1>
               </div>
-              <div className="bg-gray-800 p-6 sm:p-10">
+              <div className="bg-blue-gray-900 p-6 sm:p-10">
                 <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
                   Volunteer
                 </h1>
