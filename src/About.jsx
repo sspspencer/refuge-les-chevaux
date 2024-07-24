@@ -122,7 +122,7 @@ const About = () => {
         </h1>
         <video
           className="rounded-xl shadow-lg bg-gray-900/5"
-          src="/about_video.mp4"
+          src="/about_video1.mp4"
           loop
           autoPlay
           muted
