@@ -1,18 +1,58 @@
 const features = [
   {
-    name: "La belle Sacha",
+    name: "Sacha",
     description:
-      "I present to you Sacha, a 15-year-old, 13.3 hands QHx. She is sweet, calm, and respectful. She has a lot of experience with people, making her perfect for someone who is new to the horse world. Unfortunately, Sacha must be adopted as a companion or for liberty work, due to a tendon problem in her hind leg and advanced arthritis in her front fetlocks. She requires medication and outdoor living conditions that must be respected. She loves to be groomed, receive love, and be in the company of her friends. Please help us find a forever family for her.",
+      "Hi,My name is Sasha. I was born in 2006. I am a mixed breed horse. I was in an emergency situation. My owner was about to euthanize me because he could no longer take care of me, so the shelter quickly came to my aid to prevent that from happening. I have multiple personalities depending on the other horses or humans. Despite my multiple personalities, I am a very kind horse. I like being brushed and cuddled",
+    problemTitle: "My Health Problems",
+    problemDescripton:
+      "My 4 suspensors are remodeled because they have been working too long like that. Due to this problem I have a lot of arthritis and inflammation.",
     imageSrc: "/Sacha3.jpg",
     imageAlt:
       "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
   },
   {
-    name: "King",
+    name: "Zeus",
     description:
-      "Meet King, the big-hearted Paint Horse who is now available for adoption! Despite his age, estimated to be around 18-19 years old based on his teeth, King still exudes a youthful spirit that will warm your heart. At 16.1 hands, he's an imposing figure with a gentle personality that is sure to win over anyone who meets him. However, due to advanced arthritis in both hocks, King's mobility is limited, and he needs to find a family who will respect his physical limitations. After competing in recent years, King has developed several tendonitis and suspensory branch lesions, which means he can only handle very light work such as walking and trotting, ground work, or serving as a companion horse.",
-    imageSrc: "/king3.jpg",
-    imageAlt: "Detail of zipper pull with tan leather and silver rivet.",
+      "Hi,My name is Zeus. I was born on April 20th 1998. I am the oldest horse in the shelter! I am a solid paint horse. I was misunderstood in my pain by my humans so the shelter took me under its wing to be able to understand the pain I felt. I love living in my old days with all the wonderful people at the shelter! I am a rather independent horse. I love being brushed and receiving treats. I love to smile and make silly faces, as you can see in my picture!",
+    problemTitle: "My Health Problems",
+    problemDescripton:
+      "I have major problems with my teeth, which means that I am losing all of them and some of them are unfortunately fractured and rotten. I'm starting to get a little osteoarthritis but despite that I'm still a bomb in the field and despite my age I'm the fastest horse in my herd!",
+    imageSrc: "/zeus.png",
+    imageAlt:
+      "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+  },
+  {
+    name: "Bella",
+    description:
+      "Hi, My name is Bella. I was born in 2003. I am a quarter horse. The shelter took me on its wings given the condition I was in before arriving here. The shelter gave me the opportunity to have a second chance at life. I don't know much about humans but I enjoy being cuddled and brushed with lots of patience.",
+    problemTitle: "My Health Problems",
+    problemDescripton:
+      "I have major problems with my back, feet and pelvis. I have a lot of rotten teeth, and they are unfortunately not very good.",
+    imageSrc: "/bella.png",
+    imageAlt:
+      "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+  },
+  {
+    name: "Flash",
+    description:
+      "Hi, My name is Flash. I was born on October 7, 2012. I am an oldenburg horse. I am in rehabilitation at the shelter. My story is private. I like humans and I love to be brushed and cuddled. I also love getting treats. ",
+    problemTitle: "My Health Problems",
+    problemDescripton:
+      "I have major neurological problems which affect my cervicals and my vertebrae. I lost control of my posterior, Which also affected my digestive system.",
+    imageSrc: "/flash.jpg",
+    imageAlt:
+      "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+  },
+  {
+    name: "Federal",
+    description:
+      "Hi, My name is Federal. I was born on March 30th, 2007. I am a paint horse. The shelter came to my aid as I was in an emergency. I didn't believe I was going to survive where I was before. When I arrived at the shelter I was very thin. You could see my ribs. The shelter saved my life. I like getting cuddles and being brushed and I like to give love to the shelter volunteers.",
+    problemTitle: "My Health Problems",
+    problemDescripton:
+      "I have a fractured pelvis as well as degeneration of osteoarthritis at the level of the patella and unfortunately I have almost no cartilage at the level of the kneecaps.",
+    imageSrc: "/federal.png",
+    imageAlt:
+      "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
   },
 ];
 
@@ -25,7 +65,6 @@ export default function Horses() {
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl flex flex-col text-center items-center justify-center ">
-          <div>BUBBLE directory</div>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Meet Our Horses
           </h2>
@@ -57,6 +96,39 @@ export default function Horses() {
                 <p className="mt-2 text-sm text-center text-gray-500">
                   {feature.description}
                 </p>
+                <h3 className="text-lg mt-4 text-center font-medium text-gray-900">
+                  {feature.problemTitle}
+                </h3>
+                <p className="mt-2 text-sm text-center text-gray-500">
+                  {feature.problemDescripton}
+                </p>
+                <h3 className="text-lg text-center my-4 font-medium text-gray-900">
+                  Choose a Sponsorship tier:
+                </h3>
+                <a
+                  href="#"
+                  className=" h-10 bg-brown-500 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                >
+                  Bronze
+                </a>
+                <a
+                  href="#"
+                  className=" h-10 bg-blue-gray-200 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                >
+                  Silver
+                </a>
+                <a
+                  href="#"
+                  className=" h-10 bg-amber-400 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                >
+                  Gold
+                </a>
+                <a
+                  href="#"
+                  className=" h-10 bg-teal-100 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                >
+                  Diamond
+                </a>
               </div>
               <div
                 className={classNames(
@@ -76,6 +148,46 @@ export default function Horses() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mx-auto max-w-3xl mt-32 flex flex-col text-center items-center justify-center ">
+          <h2 className="text-3xl mb-10 font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Sponsorship Tiers
+          </h2>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Bronze tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            -welcome package -facebook group Premier 30 jours dès le
+            commencement du programme: 4.99$/mois Après 30 jours 9,99$/mois
+            Après 3 mois 14,99$/mois Ce sont des prix de départ qui ne changent
+            pas avec le temps, donc si dans 2 ans les prix sont a 40$/mois par
+            exemple, la personne qui a acheté le forfait au début va toujours
+            payer 4,99$/mois.
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Silver tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            -welcome package -facebook group -visite 1x par mois -brossage 1x
+            par mois 50$ /mois
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Gold tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            -welcome package -facebook group - brossage 1x par mois -séance 2
+            heures + apprendre les soins 1x par mois 100$/mois
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Diamond tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            -welcome package -facebook group Brossage 1x par mois Séance 2
+            heures + soins 1x par mois 1 communication animale par mois Entrée
+            VIP aux événements 1 photoshoot de 3 photos durant un évènement
+            250$/mois
+          </p>
+          <div className="h-1 w-3/5 mt-2 rounded-full bg-gray-200"></div>
         </div>
       </div>
     </div>
