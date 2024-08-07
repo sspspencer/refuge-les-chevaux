@@ -65,13 +65,55 @@ export default function Horses() {
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-3xl flex flex-col text-center items-center justify-center ">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Meet Our Horses
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+            Support Our Horses
+          </h1>
+          <p className="mt-4 text-lg text-gray-600">
+            By joining our sponsorship program, you are giving our horses a
+            better life, while sharing unforgettable moments with them. Whether
+            you choose the basic package or the diamond, each involvement
+            improves the care we can provide to our furry friends.🤎
+          </p>
+        </div>
+        <div className="mx-auto max-w-3xl mt-20 flex flex-col text-center items-center justify-center ">
+          <h2 className="text-3xl mb-10 font-bold tracking-tight text-gray-900 sm:text-4xl">
+            Sponsorship Tiers
           </h2>
-          <p className="mt-4 text-gray-500">
-            Meet our horses, the heart and soul of our rescue . Our horses are
-            ready to capture your heart and make a lasting impression, and we
-            are sure that you will fall in love with them just as we have.
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Bronze tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            - 🎁 Welcome gift - 👀Access to the private Facebook group - Special
+            launch rate (You keep this price for life): - The first 30 days:
+            **$4.99/month** - After 30 days: **$9.99/month** - After 3 months:
+            **$14.99/month** - **These starting prices are guaranteed for
+            life!** So, if in 2 years, the prices increase to $40/month, you
+            will continue to pay the rate you initially subscribed to.
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Silver tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            - 🎁 Welcome gift - 👀 Access to the private Facebook group - 🐴
+            Visit 1x per month - ✨ Brushing 1x per month - **$49.99/month**
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Gold tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            - 🎁 Welcome gift - 👀 Access to the private Facebook group - ✨
+            Brushing 1x per month - 🌾 2-hour session + learning how to care 1x
+            per month - **$99.99/month**
+          </p>
+          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+            Diamond tier:
+          </h2>
+          <p className="mt-2 mb-4 text-gray-500">
+            - 🎁 Welcome gift - 👀 Access to the private Facebook group - ✨
+            Brushing 1x per month - 🌾 2-hour session + learning how to care 1x
+            per month - 🔮 Animal communication 1x per month - 🎟️ VIP entry to
+            events - 📸 Right to 3 photos at each of our photoshoots -
+            **$199.99/month**
           </p>
           <div className="h-1 w-3/5 mt-2 rounded-full bg-gray-200"></div>
         </div>
@@ -148,46 +190,6 @@ export default function Horses() {
               </div>
             </div>
           ))}
-        </div>
-        <div className="mx-auto max-w-3xl mt-32 flex flex-col text-center items-center justify-center ">
-          <h2 className="text-3xl mb-10 font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Sponsorship Tiers
-          </h2>
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-            Bronze tier:
-          </h2>
-          <p className="mt-2 mb-4 text-gray-500">
-            -welcome package -facebook group Premier 30 jours dès le
-            commencement du programme: 4.99$/mois Après 30 jours 9,99$/mois
-            Après 3 mois 14,99$/mois Ce sont des prix de départ qui ne changent
-            pas avec le temps, donc si dans 2 ans les prix sont a 40$/mois par
-            exemple, la personne qui a acheté le forfait au début va toujours
-            payer 4,99$/mois.
-          </p>
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-            Silver tier:
-          </h2>
-          <p className="mt-2 mb-4 text-gray-500">
-            -welcome package -facebook group -visite 1x par mois -brossage 1x
-            par mois 50$ /mois
-          </p>
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-            Gold tier:
-          </h2>
-          <p className="mt-2 mb-4 text-gray-500">
-            -welcome package -facebook group - brossage 1x par mois -séance 2
-            heures + apprendre les soins 1x par mois 100$/mois
-          </p>
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-            Diamond tier:
-          </h2>
-          <p className="mt-2 mb-4 text-gray-500">
-            -welcome package -facebook group Brossage 1x par mois Séance 2
-            heures + soins 1x par mois 1 communication animale par mois Entrée
-            VIP aux événements 1 photoshoot de 3 photos durant un évènement
-            250$/mois
-          </p>
-          <div className="h-1 w-3/5 mt-2 rounded-full bg-gray-200"></div>
         </div>
       </div>
     </div>

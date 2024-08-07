@@ -167,42 +167,45 @@ const Home = () => {
             className=" absolute z-0 h-full opacity-95 w-full lg:w-1/2 lg:left-1/4   "
           ></img>
         </div>
-        <div className=" py-20 sm:py-20 w-full relative">
+        <div className=" py-20 sm:py-20 mt-20 w-full relative">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="-mx-6 shadow-2xl shadow-gray-700 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
-              <div className="bg-blue-gray-900  p-8 sm:p-10">
-                <a
-                  className="text-white font-serif font-bold py-2 px-4 text-xl"
-                  href="/support"
-                >
-                  Donate
-                </a>
-              </div>
-              <div className="bg-blue-gray-900 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
-                  Store
-                </h1>
-              </div>
-              <div className="bg-blue-gray-900 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
-                  Sponsor/Adopt
-                </h1>
-              </div>
-              <div className="bg-blue-gray-900 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
-                  Events
-                </h1>
-              </div>
-              <div className="bg-blue-gray-900 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
-                  Our sponsors
-                </h1>
-              </div>
-              <div className="bg-blue-gray-900 p-6 sm:p-10">
-                <h1 className="text-white font-bold py-2 px-4 font-serif text-xl">
-                  Volunteer
-                </h1>
-              </div>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="/support"
+              >
+                Donate Now
+              </a>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="/Horses"
+              >
+                Sponsorship
+              </a>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="#"
+              >
+                Private Sessions
+              </a>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="#"
+              >
+                Events
+              </a>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="/Sponsors"
+              >
+                Our Sponsors
+              </a>
+              <a
+                className="text-white font-serif font-bold bg-blue-gray-900 p-12 rounded-2xl   text-xl"
+                href="#"
+              >
+                Volunteer
+              </a>
             </div>
           </div>
         </div>

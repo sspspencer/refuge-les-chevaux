@@ -2,50 +2,58 @@ import { CheckIcon } from "@heroicons/react/20/solid";
 
 const tiers = [
   {
-    name: "Supporter",
+    name: "Friend",
     id: "tier-supporter",
-    href: "https://www.paypal.com/donate/?business=GJ634YTATJPGA&amount=5&no_recurring=0&currency_code=CAD",
-    priceMonthly: "$5",
-    description:
-      "The perfect plan if you're just getting started with our product.",
-    features: [
-      "25 products",
-      "Up to 10,000 subscribers",
-      "Advanced analytics",
-      "24-hour support response time",
-    ],
+    href: "https://www.paypal.com/donate/?hosted_button_id=57759LERALE5E",
+    priceMonthly: "$10",
+    description: "",
+    features: [],
     featured: false,
   },
   {
-    name: "Horse Hero",
+    name: "Supporter",
+    id: "tier-supporter",
+    href: "https://www.paypal.com/donate/?hosted_button_id=LYVJH85RLC62G",
+    priceMonthly: "$25",
+    description: "",
+    features: [],
+    featured: false,
+  },
+  {
+    name: "Champion",
+    id: "tier-supporter",
+    href: "https://www.paypal.com/donate/?hosted_button_id=F49MBNPSXYGGY",
+    priceMonthly: "$50",
+    description: "",
+    features: [],
+    featured: false,
+  },
+  {
+    name: "Ally",
+    id: "tier-supporter",
+    href: "https://www.paypal.com/donate/?hosted_button_id=R8MPYX459TYSE",
+    priceMonthly: "$100",
+    description: "",
+    features: [],
+    featured: false,
+  },
+  {
+    name: "Benefactor",
     id: "tier-hero",
-    href: "https://www.paypal.com/donate/?business=GJ634YTATJPGA&amount=15&no_recurring=0&currency_code=CAD",
-    priceMonthly: "$15",
-    description: "Dedicated support and infrastructure for your company.",
-    features: [
-      "Unlimited products",
-      "Unlimited subscribers",
-      "Advanced analytics",
-      "Dedicated support representative",
-      "Marketing automations",
-      "Custom integrations",
-    ],
+    href: "https://www.paypal.com/donate/?hosted_button_id=6E8FPF539SHVE",
+    priceMonthly: "$1000",
+    description: "",
+    features: [],
     featured: true,
   },
   {
-    name: "Supporter",
-    id: "tier-supporter",
-    href: "https://www.paypal.com/donate/?business=GJ634YTATJPGA&amount=5&no_recurring=0&currency_code=CAD",
-    priceMonthly: "$5",
-    description:
-      "The perfect plan if you're just getting started with our product.",
-    features: [
-      "25 products",
-      "Up to 10,000 subscribers",
-      "Advanced analytics",
-      "24-hour support response time",
-    ],
-    featured: false,
+    name: "Mystery",
+    id: "tier-hero",
+    href: "https://www.paypal.com/donate/?hosted_button_id=MLQGQBRKADS5Y",
+    priceMonthly: "Custom",
+    description: "",
+    features: [],
+    featured: true,
   },
 ];
 
@@ -278,12 +286,14 @@ export default function Example() {
             Donations
           </h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            The right price for you, whoever you are
+            Choose which option is best for you!
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Qui iusto aut est earum eos quae. Eligendi est at nam aliquid ad quo
-          reprehenderit in aliquid fugiat dolorum voluptatibus.
+          Donations are a unique opportunity for individuals and businesses to
+          support the care and well-being of our horses. By Donating, you help
+          us provide the necessary resources for their nutrition, medical care,
+          and overall upkeep.
         </p>
         <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
           {tiers.map((tier, tierIdx) => (
@@ -367,7 +377,7 @@ export default function Example() {
                   "mt-8 block rounded-md py-2.5 px-3.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10"
                 )}
               >
-                Get started today
+                Donate Now!
               </a>
             </div>
           ))}

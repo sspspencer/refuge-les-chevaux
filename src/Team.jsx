@@ -2,40 +2,24 @@ const people = [
   {
     name: "Nève Lavigne",
     role: "Founder",
-    imageUrl: "/neve.jpg",
+    imageUrl: "/neve1.jpg",
     bio: "<p>A place of peace!  The horses transmit different energies to each person that spends time with them. These animals, although unable to speak, fill our energy with peace without being aware of it.  They have a lot to offer and they all deserve a second chance.  We would like to thank those offering their time and help to ensure the well being of our horses and offer them peace in return.</p>",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Vicky",
+    name: "Jazmin",
     role: "Volunteer",
-    imageUrl: "/vicky.jpg",
-    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    imageUrl: "/jazmin.jpg",
+    bio: "I have been surrounded by horses my whole life. It was a passion of mine that I thought I had to completely let go of due to an injury. Upon donating all of my equestrian things I came into contact with one of the volunteers who told me of this shelter and offered me the chance to come by and visit the shelter. Upon visiting the shelter and meeting the team, I quickly fell in love with their mission and their values. They offered me a second chance at reliving my passion. The shelter brings me inner peace and pure happiness. Everything Nève has created is astonishing and I am so grateful that I have been given a chance to be a part of it and to help make a difference in these horses' lives. ",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Vanessa Franche ",
+    name: "Jasmine",
     role: "Volunteer",
-    imageUrl: "/vanessa.jpg",
-    bio: "Hi, I'm Vanessa and I've been part of the volunteer team since the summer of 2022. Every week, I get to greet not only the horses at the shelter, but also the dogs, cats and chickens that live there! For the past few months, I have been helping with the daily care of Blaze, \"the tall, beautiful blonde\" as he is known! Blaze requires daily exercises and the addition of support for his front legs. I take the opportunity to pet him and brush him at the same time! Animal protection is a subject that is close to my heart and I feel lucky to be able to support the shelter. Each small gesture counts!",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Krystina Beaulne ",
-    role: "Volunteer",
-    imageUrl: "/krystina.jpg",
-    bio: "I deeply love all animals and when given a chance to volunteer at this wonderful shelter, I jumped at the opportunity.  There are no words to describe how I feel when I am there,  Time stands still. I feel so happy and privileged to be able to help as well as being able to  spend time with all these beautiful horses.    ",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-  },
-  {
-    name: "Maria Michalska ",
-    role: "Volunteer",
-    imageUrl: "/maria.jpg",
-    bio: "This is the place of plenty of food and fresh water. Where the human voice is calm, the hand is gentle. The air is soaked in friendship, respect and joy. Teamwork makes the dream come true and there is always hope",
+    imageUrl: "/jasmine.jpg",
+    bio: "A shelter that prioritizes the health and happiness of the horses.  A haven of peace offering a second chance to all of the rescues. It is an honor to have been able to witness the evolution of the shelter from the very beginning!",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -43,28 +27,52 @@ const people = [
     name: "Julie",
     role: "Volunteer",
     imageUrl: "/julie.jpg",
-    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    bio: "I go to the shelter because it allows me to surpass myself in difficult and rewarding work, but above all I have the impression that the horses say thank you to me for helping them.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Mélanie Lacelle",
+    name: "Jess",
     role: "Volunteer",
-    imageUrl: "/melanie.jpg",
-    bio: "Peace, Serenity, Calm, Tranquility, Balance Mutual help, Solidarity, Fraternity, Support, Hope",
+    imageUrl: "/jess.jpg",
+    bio: "I go to the shelter to help horses in need. I have always loved horses and having the chance to work with them makes me happy. I am lucky enough to be able to see them evolve in their healing and to give them lots of love during their second chance at life. I also like going to the shelter because I always learn great things. Nève is an exceptional person and so patient in guiding us on the different ways to help horses, she takes the time to show us various massage and care techniques to help the furry ones as best as we can!",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Jasmine Chagnon",
+    name: "Gab",
     role: "Volunteer",
-    imageUrl: "/jasmine.jpg",
-    bio: "A rescue that prioritizes the health and happiness of the horses.  A haven of peace offering a second chance to the horses.",
+    imageUrl: "/gab.jpg",
+    bio: "I grew up with purebreds and competition horses, without knowing how lucky they and I were. Years later, I discovered the shelter at a very difficult time in my life. Reconnecting with horses has been so beneficial for me. They help me as much, if not more, than I can offer. Giving my time to the shelter is rewarding, it is soothing, it restores my self-confidence and makes me feel useful. There I discovered that horses are so much more than competitive athletes. Here, I connect with them easily and without pressure. Not all animals have the same opportunities, but the mission of the shelter, to offer them a second chance, resonates with me greatly. I will forever be grateful to be a part of this universe.",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
   {
-    name: "Caro Myre",
+    name: "Catherine",
+    role: "Volunteer",
+    imageUrl: "/catherine.jpg",
+    bio: "The shelter is an organization that I got to know through social networks. I immediately knew that I wanted, in one way or another, to be part of this magnificent project that Nève had undertaken, that of giving one last chance to injured, aging or simply abandoned horses. I am blessed to have been selected to be part of the team of volunteers who, every week, come to lend a hand to Nève and take care of the horses in addition to participating in the multiple events organized to raise funds. They need special care and love, and this is exactly why we are present at the “Refuge Les Chevaux d'Espoirs”. These horses have the chance to live a peaceful end of life, with respect and freedom, and it's truly beautiful to see! An honor to be among them and to see them flourish and regain confidence in life. Thanks to Nève who gives her body and soul for these beautiful animals with big hearts.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Annie ",
+    role: "Volunteer",
+    imageUrl: "/annie.jpg",
+    bio: "Having the well-being of animals at heart, I started following the Refuge - Les Chevaux d'Espoir on social media. I saw an organization evolving that perfectly matched my values. So I decided, at that moment, to become a volunteer. I had no idea that this experience would do me so much good. I am proud to be part of a team dedicated to the well-being of horses. Together, we make a difference for these horses who deserve a second chance.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Krystina ",
+    role: "Volunteer",
+    imageUrl: "/krystina.jpg",
+    bio: "I deeply love all animals and when given a chance to volunteer at this wonderful shelter, I jumped at the opportunity.  There are no words to describe how I feel when I am there,  Time stands still. I feel so happy and privileged to be able to help as well as being able to  spend time with all these beautiful horses.    ",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Caro",
     role: "Volunteer",
     imageUrl: "/caro.jpg",
     bio: "I am very grateful to be part of such a wonderful team.  It brings me hope.  It's a very special feeling to be able to make a difference in the life of these magnificent animals.  When I am there, I forget all my problems.  The horses help me remain calm and live in the moment.  To see them so well treated and happy brings joy to my heart.",
@@ -72,7 +80,23 @@ const people = [
     linkedinUrl: "#",
   },
   {
-    name: "Suzanne Martin",
+    name: "Sonia",
+    role: "Volunteer",
+    imageUrl: "/sonia.jpg",
+    bio: "Being at the shelter brings me the greatest pleasure. I have this feeling of freedom, connection and just pure happiness. Nève paired me with Fédéral; a beautiful, gentle horse, easy to approach, that I love deeply. I like to feel that I can make a difference in Federal’s life by providing him with care, lots of love and little treats. In addition, I am surrounded by people dedicated to the care of horses. They are kind-hearted people, passionate people who are good to be around. I like being able to help at the Shelter and do physical tasks that bring me a sense of belonging in addition to experiencing a feeling of well-being both physically and mentally. My experiences at the shelter give me a lot of personal satisfaction. At each meeting, I realize that I benefit from the relationship of trust with Fédéral. I, come out a winner in this beautiful sharing! I am fortunate to have a passion for horses, it is truly a privilege to be in the presence of these majestic beings!",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Mélanie",
+    role: "Volunteer",
+    imageUrl: "/melanie.jpg",
+    bio: "Peace, Serenity, Calm, Tranquility, Balance Mutual help, Solidarity, Fraternity, Support, Hope",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Suzanne ",
     role: "Volunteer",
     imageUrl: "/suzanne.jpg",
     bio: 'At this barn you will find peace, love and volunteers of all ages working together towards a common goal. The horses are given plenty of love on a daily basis and receive all the necessary care.  Food and fresh water are plentiful. I feel very privileged to be a part of  this great team and to be able to make a difference in the lives of these horses.  They are finally at peace and feel safe . I came across this rescue by chance but believe there is always a reason for such encounters. These horses bring me so much :  peace, grounding and love and I hope I bring as much to them as they do to me.  It is indeed a place of "Hope".',
@@ -80,13 +104,22 @@ const people = [
     linkedinUrl: "#",
   },
   {
-    name: "Sonia Lecours",
+    name: "Maria ",
     role: "Volunteer",
-    imageUrl: "/suzanne.jpg",
-    bio: 'Spending time at "Refuge les Chevaux d`Espoir" brings me so much.  It gives me a feeling of freedom, connection and just plain happiness.  Nève chose to pair me with Fédéral;  a beautiful gentle horse, easy to approach, and that I love from the bottom of my heart.  I like the feeling that I can make a difference in his life by administering the care he needs, giving him an abundance of love and treating him.  Moreover, I am surrounded with people devoted to the horses.  They are all people with hearts of gold and passionate. and a pleasure to spend time with.  I enjoy helping at the Refuge by participating in physical tasks;  it brings me a feeling of belonging as well as a feeling of well-being, both physically and mentally. My experiences at the Refuge bring me a lot of personal satisfaction. Each time I`m with Fédéral, I realize how much our mutual relation of trust with him brings me.  I consider myself an equal winner in this beautiful partnership!  I realize I am extremely lucky to be able to indulge my passion for horses and it is indeed an absolute privilege to be able to spend time with these magnificent beings!',
+    imageUrl: "/maria.jpg",
+    bio: "This is the place of plenty of food and fresh water. Where the human voice is calm, the hand is gentle. The air is soaked in friendship, respect and joy. Teamwork makes the dream come true and there is always hope",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
+  {
+    name: "Sandra",
+    role: "Volunteer",
+    imageUrl: "/sandra.jpg",
+    bio: "This is Sandra",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+
   // More people...
 ];
 
@@ -99,11 +132,12 @@ export default function Example() {
             Our team
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Meet the dedicated and compassionate team behind our horse rescue
-            organization. Our team is made up of experienced and knowledgeable
-            individuals who share a passion for equine welfare. Together, we
-            work tirelessly to provide a safe and loving environment for our
-            rescued horses. Get to know our team members below.
+            Meet our dedicated and compassionate team behind our horse rescue
+            organization. Our team is made up of experienced, knowledgeable and
+            motivated individuals who share a passion for equine welfare.
+            Together, we work tirelessly to provide a safe and loving
+            environment for our horses. Get to know our team of volunteers
+            below.
           </p>
         </div>
         <ul
