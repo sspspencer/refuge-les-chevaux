@@ -66,14 +66,14 @@ const Volunteer = () => {
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
               </div>
             </div>
-            <div className="w-44 flex-none space-y-8 pt-32 hidden sm:visible sm:pt-72 lg:pt-56">
+            <div className="w-44 flex-none space-y-8 pt-32  hidden  sm:flex  sm:pt-72 lg:pt-56">
               <div className="relative">
                 <img
                   alt=""
                   src="/volunteer3.jpg"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
-                <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                <div className="pointer-events-none absolute inset-0 rounded-xl" />
               </div>
             </div>
           </div>
