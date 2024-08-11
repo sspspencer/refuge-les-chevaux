@@ -64,7 +64,7 @@ const OurSponsors = () => {
         </div>
         <ul
           role="list"
-          className="mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-3 sm:gap-x-5 sm:max-w-7xl  lg:mx-0 lg:max-w-none lg:gap-x-32 xl:col-span-1"
+          className="mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-12 sm:grid-cols-3 sm:gap-x-5 sm:max-w-7xl lg:mx-0 lg:max-w-2xl lg:gap-x-5  xl:mx-0 xl:max-w-none xl:gap-x-44 xl:col-span-1"
         >
           {Sponsors.map((sponsor) => (
             <li

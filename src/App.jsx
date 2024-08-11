@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Sponsors from "./Sponsors";
+import Volunteer from "./Vonlunteer";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="sponsors" element={<Sponsors />} />
+        <Route path="volunteer" element={<Volunteer />} />
         <Route path="contact" element={<Contact />} />
         <Route path="support" element={<Support />} />
         <Route path="horses" element={<Horses />} />
