@@ -9,6 +9,9 @@ const features = [
     imageSrc: "/Sacha3.jpg",
     imageAlt:
       "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    tier: "Tiers available for Sacha",
+    tierAvailable:
+      "Sacha is availble for all tiers including Bronze, Silver, Gold, Diamond",
   },
   {
     name: "Zeus",
@@ -145,32 +148,11 @@ export default function Horses() {
                   {feature.problemDescripton}
                 </p>
                 <h3 className="text-lg text-center my-4 font-medium text-gray-900">
-                  Choose a Sponsorship tier:
+                  {feature.tier}
                 </h3>
-                <a
-                  href="#"
-                  className=" h-10 bg-brown-500 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-                >
-                  Bronze
-                </a>
-                <a
-                  href="#"
-                  className=" h-10 bg-blue-gray-200 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-                >
-                  Silver
-                </a>
-                <a
-                  href="#"
-                  className=" h-10 bg-amber-400 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-                >
-                  Gold
-                </a>
-                <a
-                  href="#"
-                  className=" h-10 bg-teal-100 mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-                >
-                  Diamond
-                </a>
+                <p className="mt-2 text-sm text-center text-gray-500">
+                  {feature.tierAvailable}
+                </p>
               </div>
               <div
                 className={classNames(

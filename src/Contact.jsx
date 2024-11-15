@@ -81,23 +81,7 @@ export default function Contact() {
                     Ontario, Canada, K6A 0E8
                   </dd>
                 </div>
-                <div className="flex gap-x-4">
-                  <dt className="flex-none">
-                    <span className="sr-only">Telephone</span>
-                    <PhoneIcon
-                      className="h-7 w-6 text-gray-400"
-                      aria-hidden="true"
-                    />
-                  </dt>
-                  <dd>
-                    <a
-                      className="hover:text-gray-900"
-                      href="tel:+1 (613) 307-2312"
-                    >
-                      +1 (613) 307-2312
-                    </a>
-                  </dd>
-                </div>
+
                 <div className="flex gap-x-4">
                   <dt className="flex-none">
                     <span className="sr-only">Telephone</span>

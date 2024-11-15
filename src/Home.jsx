@@ -1,8 +1,8 @@
 import { Carousel } from "@material-tailwind/react";
 const Home = () => {
   return (
-    <div className="bg-[url('/Home-background3.jpg')] bg-contain  flex flex-col justify-center items-center">
-      <section className="w-full h-128 relative flex shadow-2xl shadow-gray-900   ">
+    <div className=" bg-brown-50 bg-contain  flex flex-col justify-center items-center">
+      <section className="w-full h-128 relative flex    ">
         <Carousel
           autoplay
           loop
@@ -15,8 +15,18 @@ const Home = () => {
             className="h-full w-full object-cover"
           />
           <img
+            src="/carousel5.jpg"
+            alt="image 5"
+            className="h-full w-full object-cover"
+          />
+          <img
             src="/carousel3.jpg"
             alt="image 2"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/carousel7.jpg"
+            alt="image 7"
             className="h-full w-full object-cover"
           />
           <img
@@ -25,17 +35,18 @@ const Home = () => {
             className="h-full w-full object-cover"
           />
         </Carousel>
-        <div className=" text-center absolute lg:relative    lg:top-0 lg:left-0 w-full h-full lg:w-1/2 bg-black bg-opacity-10 lg:bg-brown-50 flex flex-col justify-center items-center">
-          <h1 className="text-8xl   font-bold text-yellow-100 lg:text-black  mb-4">
-            Join the Ride
+        <div className=" text-center absolute lg:relative    lg:top-0 lg:left-0 w-full h-full lg:w-1/2 bg-black bg-opacity-10 lg:bg-brown-100 flex flex-col justify-center items-center">
+          <h1 className="text-5xl   font-bold text-yellow-100 lg:text-black  mb-6 mx-10">
+            Make a horse's dreams come true, give it the hope of a second
+            chance!
           </h1>
           <p className="text-3xl font-semibold font-sans text-gray-200 lg:text-gray-600 mb-8">
-            Support & Become a Part of Our Equestrian Community
+            Join Hope's Horse Community and become a valued part of our mission.
           </p>
           <div className="">
             <a
               href="/support"
-              className=" h-10  bg-black mx-2  outline outline-2 outline-black  hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+              className=" h-10  bg-orange-600 mx-2   outline-black  hover:bg-brown-500 text-white text-2xl font-semibold py-6 px-16 rounded"
             >
               Donate
             </a>
@@ -85,7 +96,7 @@ const Home = () => {
                   </h1>
                   <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                     <img
-                      className="absolute -rotate-3 inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
+                      className="absolute  inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
                       src="/Home-before.jpg"
                       alt=""
                     />
@@ -98,7 +109,7 @@ const Home = () => {
                   </h1>
                   <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                     <img
-                      className="absolute rotate-3 inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
+                      className="absolute  inset-0 h-full w-full rounded-2xl bg-gray-100 object-cover shadow-2xl border-solid border-2 border-gray-300"
                       src="/Home-after.jpg"
                       alt=""
                     />
@@ -110,7 +121,7 @@ const Home = () => {
         </div>
       </section>
       <div className=" pb-16   sm:pb-24 xl:pb-32 xl:mt-14 w-full relative">
-        <div className="bg-blue-gray-900 pb-20 sm:pb-24 xl:pb-0 shadow-2xl">
+        <div className="bg-brown-500 pb-20 sm:pb-24 xl:pb-0 shadow-2xl">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div className="invisible xl:visible -mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
               <div className="relative h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
